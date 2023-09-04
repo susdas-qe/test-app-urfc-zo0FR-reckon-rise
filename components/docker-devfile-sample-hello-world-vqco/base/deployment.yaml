@@ -22,7 +22,7 @@ spec:
         app.kubernetes.io/instance: docker-devfile-sample-hello-world-vqco
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-mfbq-tenant/test-app-urfc/docker-devfile-sample-hello-world-vqco@sha256:dd25cbd2d015920b95452b17b9fba909d5a813008eff3627480871d2eb037f09
         imagePullPolicy: Always
         name: container-image
         ports:
