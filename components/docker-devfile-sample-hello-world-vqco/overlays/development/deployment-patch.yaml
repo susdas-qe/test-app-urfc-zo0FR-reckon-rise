@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: docker-devfile-sample-hello-world-vqco
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-mfbq-tenant/test-app-urfc/docker-devfile-sample-hello-world-vqco@sha256:dd25cbd2d015920b95452b17b9fba909d5a813008eff3627480871d2eb037f09
+        name: container-image
+        resources: {}
+status: {}
